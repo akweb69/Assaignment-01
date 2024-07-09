@@ -451,4 +451,56 @@ input{
 #support{
     margin-bottom: 100px;
 }
-    
+/* footer sectio style starts from here */
+
+    footer{
+        width: 100%;
+        height: 250px;
+        /* border: 1px solid red; */
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        background-image: linear-gradient( 85.2deg,  rgba(33,3,40,1) 7.5%, rgba(65,5,72,1) 88.7% );
+    }
+
+    .footer-description{
+        width: 60%;
+        height: 200px;
+        /* border: 1px solid green; */
+        padding: 50px;
+    }
+    .footer-icon{
+        width: 40%;
+        height: 200px;
+        /* border: 1px solid red; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+
+    }
+    i{
+        font-size: 40px;
+        padding: 5px;
+        cursor: pointer;
+    }
+    .fa-github{
+        color: black;
+    }
+    .fa-instagram{
+        color: red;
+    }
+
+    .footer-description{
+        color: lightgray;
+    }
+    span .ak , .ten{
+        color: tomato;
+        font-size: 15px ;
+        font-weight: 700;
+
+    }
+    .copy-right{
+        color: grey;
+    }
