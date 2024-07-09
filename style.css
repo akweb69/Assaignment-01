@@ -367,3 +367,88 @@ iframe {
 .next-target-card-container{
     margin-bottom: 100px;
 }
+
+/* support section er style akhan theke shuru hocche */
+
+.support-container{
+    width: 1070px;
+    height: 290px;
+    margin: 0 auto;
+    /* border: 1px solid red; */
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 45px;
+    background: rgba(0, 0, 0, 0.6);
+
+    background-image: url(./assets/handshake.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: overlay;
+    flex-direction: column;
+}
+.support-container h4{
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 13px;
+    }
+
+.support-container p{
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    opacity: 0.7;
+    margin-bottom: 22px;
+}
+.support-container .input-field{
+    /* width: 600px;
+    height: 60px;
+  */
+  display: flex;
+  flex-direction: row;
+}
+input{
+    width: 450px;
+    height: 44px;
+    display: block;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    padding-left: 20px;
+    font-size: 13px;
+}
+.support-container button{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 15px;
+    font-weight: 600;
+    width: 90px;
+    height: 44px;
+    border-radius: 8px;
+    background-color: white;
+    cursor: pointer;
+    border: none;
+    
+}
+.btn-submit{
+    width: 90px;
+    height: 44px;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    margin-left: 10px;
+    background-color: white;
+    cursor: pointer;
+}
+#support{
+    margin-bottom: 100px;
+}
+    
