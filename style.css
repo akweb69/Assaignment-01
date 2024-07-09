@@ -247,3 +247,75 @@ main{
     text-align: center;
     padding-top: 22px;
 }
+/* youtube video section style starts from here */
+.youtube-video{
+    width: 1050px;
+    height: 570px;
+    /* border: 2px solid red; */
+    margin: 0 auto;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 130px;
+
+}
+iframe {
+    width: 1020px ;
+    height: 540px;
+    border-radius: 20px;
+}
+
+/* current target card styles starts from here */
+.current-target-card-box{
+    width: 1070px;
+    height: 281px ;
+    /* border: 1px solid red; */
+    margin: 0 auto;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 40px;
+}
+.card-1{
+    width: 340px;
+    height: 280px;
+    /* border: 1px solid red; */
+    padding: 40px;
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+}
+.card-1 h5{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 22px;
+    font-weight: 800;
+    margin-top: 20px;
+    margin-bottom: 7px;
+    
+}
+.card-1 p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 13.5px;
+    font-weight: 400;
+    margin-bottom: 22px;
+
+}
+.card-1 a{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 13px;
+    font-weight: 700;
+    text-decoration-line: underline;
+}
+.cd-00{
+    background: rgba(0, 76, 232, 0.05);
+}
+.cd-000{
+    background: rgba(255, 223, 0, 0.05);
+}
