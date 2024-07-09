@@ -14,8 +14,9 @@ body{
 }
 /* header section starts from here ... here is the nav bar styles */
 .navbar{
-    max-width: 1368px;
+    max-width: 1350px;
     height: 70px;
+    margin: 0 auto;
     /* border: 1px solid red; */
    
 }
@@ -50,6 +51,7 @@ nav .nav-btn{
     border: 1px solid rgb(13, 19, 33);
     border-radius: 7px;
     opacity: 0.8;
+    cursor: pointer;
 
 }
 nav a{
@@ -62,5 +64,186 @@ nav a{
 /* navbar done */
 /* the banner section styles start from here */
 .banner-container{
+    width: 1350px;
+    height: 610px;
+    /* border: 1px solid red; */
+    background-image: url(./assets/Hero-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.banner-content{
+    width: 938px;
+    height: 547px;
+    /* border: 1px solid red; */
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-content img{
+    width: 226px;
+}
+.banner-title h3{
+    text-align: center;
+    font-size: 35px;
+    color: rgb(13, 19, 33);
+    font-weight: 800;
+    font-family: Azeret Mono;
+    margin-top: 35px;
+    margin-bottom: 18px;
+}
+.banner-content p{
+    text-align: center;
+    font-size: 13px;
+    color: rgb(13, 19, 33);
+    text-transform:capitalize;
+    margin-bottom: 30px;
+    opacity: 0.9;
+}
+
+.banner-content a{
+    text-decoration: none;
+    padding: 10px 20px;
+    /* border: 1px solid red; */
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    border-radius: 5px;
+    font-weight: 600;
+}
+/* end of the banner section */
+
+/* starting of the why web development section styles from here */
+main{
+    background: rgba(13, 19, 33, 0.02);
+    width: 1070px;
+    margin: 0  auto;
+    border-radius: 16px;
+    padding-bottom: 40px;
+}
+.why{
     
+    width: 800px;
+    height: 108px;
+    /* border: 1px solid red; */
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 88px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 100px;
+    
+}
+.why h4{
+    text-align: center;
+    font-size: 30px;
+    color: rgb(13, 19, 33);
+    font-weight: 800;
+}
+.why p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 13px;
+    font-weight: 400;
+    text-align: center;
+    /* opacity: 0.8; */
+    margin-top: 20px;
+}
+/* why-card section start from here */
+.why-card-01{
+    width: 880px;
+    height: 280px;
+    /* border: 1px solid red; */
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 14px;
+    margin-bottom: 30px;
+    background: linear-gradient(to right, white, rgba(13, 19, 33, 0.01));
+    
+}
+.cd-bg-2{
+    background: linear-gradient(to left, white, rgba(13, 19, 33, 0.01));
+}
+.why-card-content{
+    width: 795px;
+    height: 226px;
+    /* border: 1px solid green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 30px;
+   
+}
+.why-card-description{
+    width: 446px;
+    height: 206px;
+    margin-top: 35px;
+}
+.why-card-img{
+    width: 244px;
+    height: 206px;
+}
+.why-card-content h5{
+    font-size: 22px;
+    font-weight: 700;
+    color: rgba(13, 19, 33, 0.7);
+    margin-bottom: 14px;
+}
+.why-card-content p{
+    font-size: 14px;
+    color: rgb(13, 19, 33);
+    opacity: 0.7;
+    margin-bottom: 27px;
+}
+.why-card-content button{
+    color: rgb(13, 19, 33);
+    padding: 10px 10px ;
+    opacity: 0.7;
+    border: 1px solid rgb(13, 19, 33);
+    cursor: pointer;
+}
+.img-22{
+    margin-right: 30px;
+}
+
+/* my inspiration section start from here  */
+.my-ins{
+    width: 800px;
+    height: 108px;
+    margin: 0 auto;
+    /* border: 1px solid red; */
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+.my-ins h3{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 29px;
+    font-weight: 800;
+    text-align: center;
+}
+.my-ins p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 13px;
+    font-weight: 400;
+    opacity: 0.7;
+    text-align: center;
+    padding-top: 22px;
 }
