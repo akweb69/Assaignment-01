@@ -1,0 +1,66 @@
+/* for font add */
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+/* font-family: "Azeret Mono", monospace; */
+
+/* for universal selector */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Azeret Mono", monospace;
+}
+body{
+    max-width: 1400px;
+}
+/* header section starts from here ... here is the nav bar styles */
+.navbar{
+    max-width: 1368px;
+    height: 70px;
+    /* border: 1px solid red; */
+   
+}
+.navbar .navbar-content{
+    width: 80%;
+    height: 70px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+nav .nav-title{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 26.5px;
+    font-weight: 800;
+    line-height: 31.3px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+}
+nav .nav-title span{
+    color: rgb(236, 52, 20);
+}
+/* nav button style */
+nav .nav-btn{
+    width: 216px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(13, 19, 33);
+    border-radius: 7px;
+    opacity: 0.8;
+
+}
+nav a{
+    text-decoration: none;
+    color: rgb(13, 19, 33);
+    font-size: 19px;
+    font-weight: 600;
+    font-family: Azeret Mono;
+}
+/* navbar done */
+/* the banner section styles start from here */
+.banner-container{
+    
+}
