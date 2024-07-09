@@ -273,7 +273,7 @@ iframe {
     height: 281px ;
     /* border: 1px solid red; */
     margin: 0 auto;
-    margin-bottom: 100px;
+    margin-bottom: 130px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -318,4 +318,52 @@ iframe {
 }
 .cd-000{
     background: rgba(255, 223, 0, 0.05);
+}
+/* for next target section styl */
+.next-target{
+    margin-bottom: 100px;
+}
+
+/* next target card styles */
+.next-target-card{
+    width: 1070px;
+    height: 205px;
+    margin: 0 auto;
+    border: 1px solid red;
+    margin-bottom: 20px;
+    padding: 35px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    gap: 30px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+}
+.next-target-card h5{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 22px;
+    font-weight: 800;
+    margin-bottom: 7px;
+    
+}
+.next-target-card p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+    margin-bottom: 22px;
+    
+}
+.next-target-card a{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration-line: underline;
+}
+.next-target-card-container{
+    margin-bottom: 100px;
 }
