@@ -18,8 +18,8 @@ body{
     height: 70px;
     margin: 0 auto;
     /* border: 1px solid red; */
-   
 }
+
 .navbar .navbar-content{
     width: 80%;
     height: 70px;
@@ -27,8 +27,8 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
 }
+
 nav .nav-title{
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
@@ -38,9 +38,12 @@ nav .nav-title{
     letter-spacing: 2px;
     text-transform: capitalize;
 }
+
 nav .nav-title span{
     color: rgb(236, 52, 20);
 }
+
+
 /* nav button style */
 nav .nav-btn{
     width: 216px;
@@ -54,6 +57,7 @@ nav .nav-btn{
     cursor: pointer;
 
 }
+
 nav a{
     text-decoration: none;
     color: rgb(13, 19, 33);
@@ -61,8 +65,10 @@ nav a{
     font-weight: 600;
     font-family: Azeret Mono;
 }
+
 /* navbar done */
 /* the banner section styles start from here */
+
 .banner-container{
     width: 1350px;
     height: 610px;
@@ -91,6 +97,7 @@ nav a{
 
 .banner-content img{
     width: 226px;
+
 }
 .banner-title h3{
     text-align: center;
@@ -101,6 +108,7 @@ nav a{
     margin-top: 35px;
     margin-bottom: 18px;
 }
+
 .banner-content p{
     text-align: center;
     font-size: 13px;
@@ -121,9 +129,12 @@ nav a{
     border-radius: 5px;
     font-weight: 600;
 }
+
 /* end of the banner section */
 
 /* starting of the why web development section styles from here */
+
+
 main{
     background: rgba(13, 19, 33, 0.02);
     width: 1070px;
@@ -131,6 +142,7 @@ main{
     border-radius: 16px;
     padding-bottom: 40px;
 }
+
 .why{
     
     width: 800px;
@@ -146,12 +158,14 @@ main{
     padding-top: 100px;
     
 }
+
 .why h4{
     text-align: center;
     font-size: 30px;
     color: rgb(13, 19, 33);
     font-weight: 800;
 }
+
 .why p{
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
@@ -161,6 +175,7 @@ main{
     /* opacity: 0.8; */
     margin-top: 20px;
 }
+
 /* why-card section start from here */
 .why-card-01{
     width: 880px;
@@ -176,9 +191,11 @@ main{
     background: linear-gradient(to right, white, rgba(13, 19, 33, 0.01));
     
 }
+
 .cd-bg-2{
     background: linear-gradient(to left, white, rgba(13, 19, 33, 0.01));
 }
+
 .why-card-content{
     width: 795px;
     height: 226px;
@@ -190,27 +207,32 @@ main{
     gap: 30px;
    
 }
+
 .why-card-description{
     width: 446px;
     height: 206px;
     margin-top: 35px;
 }
+
 .why-card-img{
     width: 244px;
     height: 206px;
 }
+
 .why-card-content h5{
     font-size: 22px;
     font-weight: 700;
     color: rgba(13, 19, 33, 0.7);
     margin-bottom: 14px;
 }
+
 .why-card-content p{
     font-size: 14px;
     color: rgb(13, 19, 33);
     opacity: 0.7;
     margin-bottom: 27px;
 }
+
 .why-card-content button{
     color: rgb(13, 19, 33);
     padding: 10px 10px ;
@@ -218,11 +240,14 @@ main{
     border: 1px solid rgb(13, 19, 33);
     cursor: pointer;
 }
+
 .img-22{
     margin-right: 30px;
 }
 
+
 /* my inspiration section start from here  */
+
 .my-ins{
     width: 800px;
     height: 108px;
@@ -231,6 +256,7 @@ main{
     margin-top: 80px;
     margin-bottom: 40px;
 }
+
 .my-ins h3{
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
@@ -238,6 +264,7 @@ main{
     font-weight: 800;
     text-align: center;
 }
+
 .my-ins p{
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
@@ -247,7 +274,9 @@ main{
     text-align: center;
     padding-top: 22px;
 }
+
 /* youtube video section style starts from here */
+
 .youtube-video{
     width: 1050px;
     height: 570px;
@@ -261,6 +290,7 @@ main{
     margin-bottom: 130px;
 
 }
+
 iframe {
     width: 1020px ;
     height: 540px;
@@ -268,6 +298,7 @@ iframe {
 }
 
 /* current target card styles starts from here */
+
 .current-target-card-box{
     width: 1070px;
     height: 281px ;
@@ -281,6 +312,7 @@ iframe {
     gap: 30px;
     margin-top: 40px;
 }
+
 .card-1{
     width: 340px;
     height: 280px;
@@ -289,6 +321,7 @@ iframe {
     border-radius: 16px;
     background: rgba(255, 76, 30, 0.05);
 }
+
 .card-1 h5{
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
@@ -298,6 +331,7 @@ iframe {
     margin-bottom: 7px;
     
 }
+
 .card-1 p{
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
@@ -306,6 +340,7 @@ iframe {
     margin-bottom: 22px;
 
 }
+
 .card-1 a{
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
@@ -313,18 +348,23 @@ iframe {
     font-weight: 700;
     text-decoration-line: underline;
 }
+
 .cd-00{
     background: rgba(0, 76, 232, 0.05);
 }
+
 .cd-000{
     background: rgba(255, 223, 0, 0.05);
 }
-/* for next target section styl */
+
+/* for next target section styles */
+
 .next-target{
     margin-bottom: 100px;
 }
 
 /* next target card styles */
+
 .next-target-card{
     width: 1070px;
     height: 205px;
@@ -340,6 +380,7 @@ iframe {
     border: 1px solid rgba(13, 19, 33, 0.15);
     border-radius: 16px;
 }
+
 .next-target-card h5{
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
@@ -348,6 +389,7 @@ iframe {
     margin-bottom: 7px;
     
 }
+
 .next-target-card p{
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
@@ -357,6 +399,7 @@ iframe {
     margin-bottom: 22px;
     
 }
+
 .next-target-card a{
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
@@ -364,6 +407,7 @@ iframe {
     font-weight: 700;
     text-decoration-line: underline;
 }
+
 .next-target-card-container{
     margin-bottom: 100px;
 }
@@ -389,6 +433,7 @@ iframe {
     background-blend-mode: overlay;
     flex-direction: column;
 }
+
 .support-container h4{
     color: rgb(255, 255, 255);
     font-family: Azeret Mono;
@@ -407,6 +452,7 @@ iframe {
     opacity: 0.7;
     margin-bottom: 22px;
 }
+
 .support-container .input-field{
     /* width: 600px;
     height: 60px;
@@ -414,6 +460,7 @@ iframe {
   display: flex;
   flex-direction: row;
 }
+
 input{
     width: 450px;
     height: 44px;
@@ -423,6 +470,7 @@ input{
     padding-left: 20px;
     font-size: 13px;
 }
+
 .support-container button{
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
@@ -436,6 +484,7 @@ input{
     border: none;
     
 }
+
 .btn-submit{
     width: 90px;
     height: 44px;
@@ -448,9 +497,11 @@ input{
     background-color: white;
     cursor: pointer;
 }
+
 #support{
     margin-bottom: 100px;
 }
+
 /* footer sectio style starts from here */
 
     footer{
@@ -470,6 +521,7 @@ input{
         /* border: 1px solid green; */
         padding: 50px;
     }
+
     .footer-icon{
         width: 40%;
         height: 200px;
@@ -480,14 +532,17 @@ input{
 
 
     }
+
     i{
         font-size: 40px;
         padding: 5px;
         cursor: pointer;
     }
+
     .fa-github{
         color: black;
     }
+
     .fa-instagram{
         color: red;
     }
@@ -495,12 +550,14 @@ input{
     .footer-description{
         color: lightgray;
     }
+
     span .ak , .ten{
         color: tomato;
         font-size: 15px ;
         font-weight: 700;
 
     }
+    
     .copy-right{
         color: grey;
     }
